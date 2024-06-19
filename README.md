@@ -88,14 +88,39 @@ Setup Development Environment
 ![alt text](image-27.png)
 ### Open it in visual studio code and create two files and then initialize the github repository
 ![alt text](image-28.png)
+### Add the files to tracking , make commits and finally push to the repository  you had created in github
+![alt text](image-29.png)
+### I faced some challenges ,  had not set the branch main to my local repository , that's why I set it after the second error 
+![alt text](image-30.png)
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
+  ## a. Install python in ubuntu using the terminal  and its respecti![alt text](image-31.png)ve installer 
+  ![alt text](image-33.png)
+  ###  Validate their Installation
+![alt text](image-34.png)
+###  c. Install Virtual environment using this command
+![alt text](image-35.png)
+### d. Validate its installation
+![alt text](image-36.png)
 
 5. Install Package Managers:
    If applicable, install package managers like pip (Python).
+   ##  Already installed using the procedure above for installing python 
+   ![alt text](image-37.png)
+   ![alt text](image-38.png)
 
 6. Configure a Database (MySQL):
    Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
+   ### a. Install by  running this command   the terminal
+   ![alt text](image-39.png)
+   ### b. Configure MySQL Server:
+   
+During the installation process, you will be prompted to set a root password for MySQL. Choose a strong password and remember it.
+
+
+
+    c. Secure MySQL Installation (Optional but Recommended):
+            MySQL comes with a script to secure the installation. Run the following command and      follow the prompts to secure your MySQL installation:
 
 7. Set Up Development Environments and Virtualization (Optional):
    Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
