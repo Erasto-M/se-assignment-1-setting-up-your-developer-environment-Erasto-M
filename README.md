@@ -5,19 +5,89 @@ Setup Development Environment
 
 #Assignment: Setting Up Your Developer Environment
 
-#Objective:
-This assignment aims to familiarize you with the tools and configurations necessary to set up an efficient developer environment for software engineering projects. Completing this assignment will give you the skills required to set up a robust and productive workspace conducive to coding, debugging, version control, and collaboration.
-
-#Tasks:
-
-1. Select Your Operating System (OS):
-   Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
-
+## PLP SOFTWARE ENGINEERING 
+## Setting Up Developer Environment
+1. Select Your Operating System (OS): Choose an operating system that best suits your preferences and project requirements. 
+### Steps for downloading and Installing Ubuntu
+### a. Check your System Requirements
+- Ensure your computer meets the system requirements for Ubuntu:
+- 2 GHz dual-core processor
+- 4 GB RAM
+- 25 GB of free hard drive space
+## Backup your Data
+- Backup all important data from your computer to avoid any loss during the installation process.
+## Download Ubuntu
+- Go to the Ubuntu Download Page.
+- Click on "Download" to get the latest version of Ubuntu.
+![alt text](image.png)
+## Create installation Media
+## Using Rufus (for Windows users):
+- Download and install Rufus.
+- Insert a USB flash drive (minimum 4 GB).
+- Open Rufus and select the downloaded Ubuntu ISO file.
+- Choose the USB flash drive as the destination and click "Start" to create the bootable USB drive.
+## Using Balena Etcher (for macOS and Linux users):
+- Download and install Balena Etcher.
+- Insert a USB flash drive (minimum 4 GB).
+- Open Etcher, select the downloaded Ubuntu ISO file, choose the USB flash drive as the destination, and click "Flash!" to create the bootable USB drive.
+![alt text](image-1.png)
+## In the above, select the Etcher for  linux
+![alt text](image-2.png)
+## Prepare your Personal Computer for Installation
+- Insert the USB flash drive containing the Ubuntu installation media into your PC.
+- Restart your computer.
+- Enter the BIOS/UEFI settings (commonly accessed by pressing keys like F2, F12, Delete, or Esc during startup).
+- Change the boot order to boot from the USB drive first.
+## Install Ubuntu
+- Boot from the USB drive and follow the installation instructions as shown in the screenshots below.
+![alt text](image-3.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+### Use wired connection in the case where you have an ethernet cable with internet connected to your pc
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+![alt text](image-12.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
 2. Install a Text Editor or Integrated Development Environment (IDE):
-   Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
+   Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio
+   - In linux , you can download the vscode from the ubuntu software   or you can also use commands in the terminal
+
+###  a. Open the ubuntu software
+![alt text](image-15.png)
+### b. Search for vscode in the ubuntu software 
+![alt text](image-16.png)
+### c. Click code then click install 
+![alt text](image-17.png)
+![alt text](image-18.png)
+### d. It has successfully installed 
+![alt text](image-19.png)
+###  From the terminal it also shows that it is installed 
+![alt text](image-20.png)
+### Also from the desktop when I search 
+![alt text](image-21.png)
+### You can now open it to test . just use your terminal and open it
+![alt text](image-22.png) 
+![alt text](image-23.png)
+
+
 3. Set Up Version Control System:
    Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+  ### a.  Run this command in the terminal to install git . and enter your password 
+![alt text](image-24.png)
+### b.  Check git version to confirm installation
+![alt text](image-25.png)
+### c. Create github account and create a new repository , enter the repository name , set it as either public or private depending on your needs
+![alt text](image-26.png)
 
+### d. Create a folder and open it in vscode , add files to it and then push to Github
+![alt text](image-27.png)
+### Open it in visual studio code and create two files and then initialize the github repository
+![alt text](image-28.png)
 4. Install Necessary Programming Languages and Runtimes:
   Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
 
